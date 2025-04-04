@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="ED657399-DA57-AA2F-9E4E-D10B217153B1">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:35:43 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>226CF033-2837-7F55-EF57-2DA700290ADF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C0F07A3-3517-6583-CDF1-85150CCAAE36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

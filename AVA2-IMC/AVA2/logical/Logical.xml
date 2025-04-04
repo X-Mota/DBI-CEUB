@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C1017C76-D1CC-41F5-9E99-E3F56B1407F9" mainViewID="DD820FE8-1082-47AC-1A92-7EAF56821377">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 22:54:25 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

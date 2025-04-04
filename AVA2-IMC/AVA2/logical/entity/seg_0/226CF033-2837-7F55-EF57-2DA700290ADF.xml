@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="226CF033-2837-7F55-EF57-2DA700290ADF" name="IMC Saúde Integral ">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 22:59:32 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>IMCS</preferredAbbreviation>
+<shortName>IMCS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial " id="864D0E58-2A95-B511-EB10-E0FCDE7F3ED4">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:02:30 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="40FF14E9-EDAE-048E-D6A8-222813CD9A7D">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:03:17 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="D04CDEA4-D26A-F73F-CCA8-42C105A2E9ED">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:03:32 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="662CDB2D-4DDC-8409-1F80-73A4231AF552">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:03:55 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="CB43E818-83F5-8CDE-7EBF-F0C4F558F2BA">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:04:14 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="37DB9F0A-37EE-2FD0-0334-517911E93F6B">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:04:31 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

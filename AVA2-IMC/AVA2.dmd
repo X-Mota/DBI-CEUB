@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AVA2" id="CE06AD2B-DBB2-CD93-8FB4-5A3C273ED70D" version="3.5">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 22:54:25 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CE06AD2B-DBB2-CD93-8FB4-5A3C273ED70D</designId>
+</OSDM_Design>

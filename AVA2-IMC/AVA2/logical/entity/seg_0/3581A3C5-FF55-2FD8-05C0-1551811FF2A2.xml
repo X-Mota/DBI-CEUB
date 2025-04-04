@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3581A3C5-FF55-2FD8-05C0-1551811FF2A2" name="Recomendações">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:25:04 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>re</preferredAbbreviation>
+<shortName>re</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="planoAlimetar" id="C68C7E4E-2B4E-E320-F844-97917373F18D">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:25:24 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="academia" id="4DEF946D-6F0D-6284-DE36-7C3E50136671">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:25:42 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="planoExercicios" id="E5520453-C002-3323-70AC-586198D262DB">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:25:54 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pilates" id="BCA773E9-B6CA-EBCF-6DEA-20A1F8BF08BE">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:26:17 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acompanhamentoMedico" id="4A2AD743-C79E-713F-2279-7A3009558E33">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:26:25 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

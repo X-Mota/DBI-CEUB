@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9A2AA771-F1CE-9C49-F045-4E25618C2C99">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 22:54:26 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

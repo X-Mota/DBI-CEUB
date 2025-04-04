@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C0F07A3-3517-6583-CDF1-85150CCAAE36" name="Paciente">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:05:11 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>cl</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="0B7927B2-C849-6B3B-2947-3F81258E2022">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:05:43 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="48403441-8EC1-BE1A-CAAA-E14E6271A72F">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:06:03 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="C817549F-D048-0EC3-CFEC-BD8170765DBC">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:06:15 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="D2ED6918-1B4C-7B9D-E46E-FCE19B8CCB56">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:06:25 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="4B1B8B5D-B389-D3A4-8AF6-E4FA14E32EFB">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:07:20 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="64CD0E43-C5A9-9C98-F0BA-56F646B59724">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:07:52 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="3BED1AB1-0DF6-75DD-E139-2C46D061F143">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:08:02 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="343FF6B4-D1B0-A20D-7AF5-0CA60E2FA079">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:20:30 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="historicoMedico" id="AC770BC2-CD62-5184-8BE8-365B8B421F7C">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-04-03 23:20:40 UTC</createdTime>
+<ownerDesignName>AVA2</ownerDesignName>
+<engineerTo>
+<item key="2EF5B5E9-9ED6-3192-E82B-5464CDB75AD2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
