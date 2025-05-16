@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E029707F-B01A-C974-F6E9-DDF73DDFB223" mainViewID="ADE53F3F-9C6E-C2F5-24D1-6339A50ECEDE">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:11:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

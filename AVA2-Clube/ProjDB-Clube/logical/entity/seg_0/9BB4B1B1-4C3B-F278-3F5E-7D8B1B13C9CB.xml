@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BB4B1B1-4C3B-F278-3F5E-7D8B1B13C9CB" name="Titular">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:11:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7F32EA2-56B4-DF3A-D0A4-55C0C5E7E3DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="AC6966D6-F4D4-A95E-0A6E-23C7FE1695FF">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:16:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7F32EA2-56B4-DF3A-D0A4-55C0C5E7E3DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="34BE2BF8-43BB-462B-A2B5-06BA76F734BE">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:12:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7F32EA2-56B4-DF3A-D0A4-55C0C5E7E3DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoTitular" id="5313DC9F-0FBE-C45D-9F07-10B850443799">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:16:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7F32EA2-56B4-DF3A-D0A4-55C0C5E7E3DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoTitular" id="F317B416-9B0C-F0A5-DCC4-406B8BA378AC">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:16:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7F32EA2-56B4-DF3A-D0A4-55C0C5E7E3DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailTitular" id="317118AF-A2E8-35AD-BE21-AC253EFC49E8">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:33:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="E7F32EA2-56B4-DF3A-D0A4-55C0C5E7E3DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

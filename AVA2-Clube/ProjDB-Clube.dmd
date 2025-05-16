@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-Clube" id="5CBBE91B-DD7A-E226-50B1-960681E080B0" version="3.5">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 23:11:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5CBBE91B-DD7A-E226-50B1-960681E080B0</designId>
+</OSDM_Design>
