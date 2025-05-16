@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70013448-11EB-8F9D-59DA-016018D150EC" name="Pedidos">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 22:39:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="55766768-3C1E-9309-7A4F-E3178B466B67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="85A86373-288E-D60C-B570-BCB83C8538D9">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 22:39:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="55766768-3C1E-9309-7A4F-E3178B466B67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeClientePedido" id="5E453C56-30A0-4294-C3EF-D528E2CE8B6F">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 22:39:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="55766768-3C1E-9309-7A4F-E3178B466B67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datapedido" id="07B3BF63-26CD-641D-1052-1AD570BAC207">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 22:39:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="55766768-3C1E-9309-7A4F-E3178B466B67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="F8AF5624-4AF7-775C-5B02-1C61496B71CF">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 22:40:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="55766768-3C1E-9309-7A4F-E3178B466B67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

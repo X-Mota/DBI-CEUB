@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="42E767CA-7407-AFC0-3228-53E60CE43CD1">
+<createdBy>mateus.mota</createdBy>
+<createdTime>2025-05-15 22:46:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="55766768-3C1E-9309-7A4F-E3178B466B67" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9181D33C-10CD-15AA-F009-531D60261D9D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14E76685-CB1F-0CEC-3908-51F6B38ED13B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
